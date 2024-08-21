@@ -1,0 +1,17 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "capstone project website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Estanislao Delariarte III",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "tailwindcss-text-fill-stroke": "^1.1.2"
+  }
+}
