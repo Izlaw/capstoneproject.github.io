@@ -1,0 +1,1 @@
+patya nlng gd ko
