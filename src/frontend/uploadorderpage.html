@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../output.css" rel="stylesheet">
-    <title>Webpage Title</title>
+    <title>Upload Order Page</title>
     <!--Header Integrator-->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
@@ -16,6 +16,32 @@
 <body class="bg-mainbackground bg-cover">
     <!--Header-->
     <div id="header"></div>
-    
+
+<!-- Ask for gender -->
+<div class="QuestionContainer flex justify-center items-center h-[93.5vh]">
+  <div class="BoxContainer bg-maroonbgcolor w-[400px] h-[300px] p-4 rounded-lg shadow-md bg-opacity-80 backdrop-blur-md text-center">
+    <!-- Back button to addorderpage.html -->
+    <a href="addorderpage.html" class="group">
+          <img class="BackButton h-8 w-8 float-right hover:bg-white group-hover:hidden rounded-lg p-1" src="../img/gobackbutton.svg">
+          <!-- Note: trying to change the svg file to something else upon hover of BackButton
+          <img class="BackButton h-8 w-8 float-right hidden group-hover:block" src="../img/gobackbutton-hover.svg">
+           -->
+
+    </a>
+    <!-- Question -->
+    <div class="MoveContentsDown pt-8">
+      <span class="QuestionTxt text-white text-[48px]">Which gender?</span>
+      <div class="flex justify-center mt-10">
+        <a href="uploadorderpagemale.html">
+          <button class="bg-maroonbgcolor hover:bg-white hover:text-maroonbgcolor text-white font-bold py-2 px-4 rounded-lg text-[24px]">Male</button>
+        </a>
+        <a href="uploadorderpagefemale.html">
+          <button class="bg-maroonbgcolor hover:bg-white hover:text-maroonbgcolor text-white font-bold py-2 px-4 rounded-lg ml-20 text-[24px]">Female</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

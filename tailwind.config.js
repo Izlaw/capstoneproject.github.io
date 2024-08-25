@@ -8,6 +8,10 @@ module.exports = {
         brownbgcolor: "#643a22",
         maroonbgcolor: "#372d2e",
         pinktext: "#d85661",
+        gray: {
+          500: '#aaa',
+        },
+        white: '#ffffff',
       },
       backgroundImage: {
         mainbackground: "url('img/background.png')",
@@ -30,6 +34,11 @@ module.exports = {
         '125': '1.25',
         '150': '1.5',
       },
+      stroke: {
+        1: '1px',
+        2: '2px',
+        3: '3px',
+      }
     },
     variants: {
       stroke: ['responsive'],
